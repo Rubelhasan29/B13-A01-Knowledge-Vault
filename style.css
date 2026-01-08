@@ -34,7 +34,61 @@ nav .mid-btn a{
     background-color: #469165;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: #0e2613;
+}
+#hero{
+    width: 100%;
+    height: 674px;
+    background-image:url(./assets/hero-bg.png);
+    text-align: center;
+}
+.hero-title{
+    padding-top: 116px;
+}
+.hero-text h2{
+    font-size: 72px;
+    font-weight: 700px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.hero-text #color{
+    color: #30B868;
+}
+.hero-text p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+#hero .hero-btn{
+    padding: 16px 46px 16px 16px;
+    border: none;
+    border-radius: 4px;
+    width: 240px;
+    background-color: #469165;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 183px;
+    cursor: pointer;
+}
+#hero .hero-btn:hover{
+    background-color: #436b32;
+}
+.hero-btn2{
+    padding: 16px 46px 16px 16px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    width: 200px;
+    background-color: #46916500;
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 183px;
+    cursor: pointer;
+}
+#hero .hero-btn2:hover{
+    background-color: #caccc99c;
 }
