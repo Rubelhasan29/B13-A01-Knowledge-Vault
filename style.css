@@ -42,13 +42,25 @@ nav .mid-btn a{
     background-color: #0e2613;
 }
 #hero{
+    padding-top: 116px;
     width: 100%;
     height: 674px;
     background-image:url(./assets/hero-bg.png);
     text-align: center;
 }
-.hero-title{
-    padding-top: 116px;
+ #hero .hero-title{
+    height: 36px;
+    width: 240px;
+    display: flex;
+    gap: 6px;
+   margin: 0 auto;
+   background: #FFFFFF;
+   border-radius: 20px;
+}
+#hero .hero-title a{
+    padding-top: 7px;
+    text-decoration: none;
+    color: #30B868;
 }
 .hero-text h2{
     font-size: 72px;
