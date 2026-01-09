@@ -178,3 +178,28 @@ nav .mid-btn a{
     list-style:none;
     padding-bottom: 16px;
 }
+#hard{
+    height: 385px;
+    width: 85%;
+    max-width: 1632px;
+    text-align: center;
+    margin: 2px 115px 120px 150px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+.hard-header h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding: 80px 40px 16px 40px;
+}
+.hard-header p{
+    color: #627382;
+    padding-bottom: 24px;
+    font-size: 16px;
+}
+#p{
+    padding-top: 16px;
+    color: #627382;
+    font-size: 16px;
+}
