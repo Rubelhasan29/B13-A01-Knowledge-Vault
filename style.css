@@ -21,10 +21,12 @@ nav .mid-btn{
 }
 nav .mid-btn{
     list-style: none;
+    
 
 }
 nav .mid-btn a{
     text-decoration: none;
+    color: #000000;
 }
 .btn{
     padding: 12.5px 16px;
@@ -91,4 +93,52 @@ nav .mid-btn a{
 }
 #hero .hero-btn2:hover{
     background-color: #caccc99c;
+}
+#cards .card-container{
+    width: 82%;
+    max-width: 1632px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card-container .card-text h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #001931;
+    padding-top: 80px;
+    padding-bottom: 16px;
+
+}
+.card-container .card-text p{
+    color: #627382;
+    font-size: 16px;
+    padding-bottom: 44px;
+}
+.card-container .card{
+    display: flex;
+    gap: 24px;
+}
+.card-container .card-img{
+    background-color: #F95555;
+    border-radius:50px;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+.card-container h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card-container p{
+    color: #627382;
+    font-size: 400;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 24px;
+}
+.all-card{
+    padding: 69.5px 20px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 8px 0px #1c222a1a;
+    margin-bottom: 120px;
 }
