@@ -203,3 +203,34 @@ nav .mid-btn a{
     color: #627382;
     font-size: 16px;
 }
+#last{
+    height: 390px;
+    background-color: #001931;
+}
+#last .last-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 120px 80px;
+}
+#last .last-container .social h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+#last .last-container .social a{
+    margin-right: 16px;
+}
+.copyright{
+    width: 85%;
+    max-width: 1632px;
+    color: #fafafa98;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-top: 1px solid #ffffff36;
+    margin-left: 120px;
+    padding-top: 36px;
+}
